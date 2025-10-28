@@ -1,8 +1,4 @@
 ﻿using PracticalTaskConsoleApp._2025_1;
-using PracticalTaskConsoleApp.Czerwiec2022_2;
-using PracticalTaskConsoleApp.Czerwiec2023_6;
-using PracticalTaskConsoleApp.Styczeń2023_1;
-
 /*Task1 task1 = new Task1();
 task1.Task();
 
