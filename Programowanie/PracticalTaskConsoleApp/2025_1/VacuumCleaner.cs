@@ -9,7 +9,7 @@
             if (!isTurnedOn)
             {
                 isTurnedOn = true;
-                base.ShowInfo("Odkurzacz jest już włączony");
+                ShowInfo("Odkurzacz włączono");
             }
         }
 
@@ -18,7 +18,7 @@
             if (isTurnedOn)
             {
                 isTurnedOn = false;
-                base.ShowInfo("Odkurzacz wyłączono");
+                ShowInfo("Odkurzacz wyłączono");
             }   
         }
     }

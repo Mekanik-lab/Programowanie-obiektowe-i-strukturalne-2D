@@ -9,10 +9,12 @@
             if (number >= 1 && number <= 12)
             {
                 washingProgramNumber = number;
+                ShowInfo("Program został ustawiony");
             }
             else
             {
                 washingProgramNumber = 0;
+                ShowInfo("Podano niepoprawny numer programu");
             }
             return washingProgramNumber;
         }
